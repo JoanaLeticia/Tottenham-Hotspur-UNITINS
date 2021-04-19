@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Akira';
-    src: url(fonts/Akira.woff);
+    src: url(Akira.woff);
 }
 
 @font-face {
     font-family:'Stretch Pro';
-    src: url(fonts/StretchPro.otf);
+    src: url(StretchPro.otf);
 }
 
 @font-face {
     font-family: 'Dolce Vita Light';
-    src: url(fonts/Dolce-Vita-Light.woff);
+    src: url(Dolce-Vita-Light.woff);
 }
 
 @font-face {
     font-family: 'Roboto Medium';
-    src: url(fonts/Roboto-Medium.woff);
+    src: url(Roboto-Medium.woff);
 }
 
 @font-face {
     font-family: 'Rockford Sans Light';
-    src: url(fonts/RockfordSans-Light.woff);
+    src: url(RockfordSans-Light.woff);
 }
 
 @font-face {
     font-family: 'Roboto Light' ;
-    src: url(fonts/Roboto-Light.woff);
+    src: url(Roboto-Light.woff);
 }
 
 body{
