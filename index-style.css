@@ -1,0 +1,552 @@
+@font-face {
+    font-family: 'Akira';
+    src: url(fonts/Akira.woff);
+}
+
+@font-face {
+    font-family:'Stretch Pro';
+    src: url(fonts/StretchPro.otf);
+}
+
+@font-face {
+    font-family: 'Dolce Vita Light';
+    src: url(fonts/Dolce-Vita-Light.woff);
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(fonts/Roboto-Medium.woff);
+}
+
+@font-face {
+    font-family: 'Rockford Sans Light';
+    src: url(fonts/RockfordSans-Light.woff);
+}
+
+@font-face {
+    font-family: 'Roboto Light' ;
+    src: url(fonts/Roboto-Light.woff);
+}
+
+body{
+    background-image: radial-gradient(circle, #e8e7e8, #eaeaea);
+    background-attachment: fixed;
+}
+/*main{
+    background-color: #f0f0f0;
+    width: 1170px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}*/
+.sobre{
+    background-color: #f0f0f0;
+    width: 1170px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    padding-bottom: 40px;
+}
+.elenco{
+    background-color: #f0f0f0;
+    width: 1170px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    margin-top: -8px;
+    padding-top: 60px;
+}
+/* barra de navegação */
+.nav-container {
+    max-width: 2560px;
+    background-image: radial-gradient(circle, #e7e7e7, #ececec);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
+}
+#logo-nav{
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+}
+.nav-container ul{
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    margin-right: 50px;
+}
+.nav-container li{
+    margin: 0 15px;
+    float: left;
+    list-style: none;
+    font-family: 'Rockford Sans Light';
+    font-size: 17px;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: #001c58;
+    transition-duration: 0.7s;
+}
+.nav-container li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.container-home {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: -8px;
+  }
+  
+  .titulo-home {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    font-family: 'Akira';
+    font-size:70px;
+    text-align: left;
+  }
+  
+  .nav-home {
+    position: absolute;
+    bottom: 200px;
+    right: 300px;
+    font-family: 'Dolce Vita Light';
+    font-size: 30px;
+  }
+  .nav-home a{
+      text-decoration: none;
+      color: white;
+      transition-duration: 0.5s;
+  }
+  .nav-home a:hover{
+      font-size: 35px;
+  }
+
+#sobre_title{
+    font-family: 'Stretch Pro';
+    font-size: 60px;
+    color: #001c58;
+    text-align: center;
+}
+.container-quote {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .quote-text {
+    position: absolute;
+    padding-left: 350px;
+    padding-right: 350px;
+    top: 53px;
+    left: 16px;
+    font-size: 30px;
+    font-family: 'Rockford Sans Light';
+    text-transform: uppercase;
+  }
+  .container-text {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .text-sobre {
+    position: absolute;
+    top: 80px;
+    left: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: black;
+    font-size: 19px;
+    font-family: 'Roboto Light';
+  }
+
+#sobre_nav{
+    font-family: 'Stretch Pro';
+    float: right;
+    font-size: 18.50px;
+    text-transform: uppercase;
+    margin-top: -20px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#sobre_nav a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#sobre_nav a:hover{
+    font-size: 20px;
+}
+
+.container-nc {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: -8px;
+  }
+  
+  .nc-title {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Stretch Pro';
+    font-size: 50px;
+    border-bottom: solid;
+    border-width: 1px;
+    padding-bottom: 20px;
+  }
+  
+  .nc-nav {
+    position: absolute;
+    bottom: 50px;
+    right: 23%;
+    transform: translate(-23%);
+    font-family: 'Stretch Pro';
+    font-size: 18.48px;
+    text-transform: uppercase;
+  }
+  .nc-nav a{
+      text-decoration: none;
+      color: white;
+      transition: 0.5s;
+  }
+  .nc-nav a:hover{
+      font-size: 20px;
+  }
+
+  .nc-trophies {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+  }
+
+.elenco-title{
+    z-index: 1;
+    font-family: 'Stretch Pro';
+    float: right;
+    font-size: 60px;
+    color: #001c58;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+.container-elenco {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .txt-elenco {
+    width: 420px;
+    position: absolute;
+    top:210px;
+    right: 75px;
+    font-family: 'Dolce Vita Light';
+    font-size: 41.55px;
+    color: #001c58;
+  }
+
+  .elenco-nav{
+      position: absolute;
+      bottom: 40px;
+      right: 8px;
+      font-family: 'Stretch Pro';
+      font-size: 18.48px;
+      text-transform: uppercase;
+  }
+  .elenco-nav a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+}
+.elenco-nav a:hover{
+    font-size: 20px;
+}
+
+.container-news {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: -8px;
+  }
+  @media screen and (min-width: 2560px) {
+    .container-news{
+      width: 75%;
+      position: relative;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #333333;
+      padding-left: 670px;
+      margin: -8px;
+    }
+    .nav-news{
+      position: absolute;
+      bottom: 40px;
+      left: 57%;
+    }
+  }
+  .news-title{
+    font-family: 'Stretch Pro';
+    font-size: 60px;
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -4%);
+  }
+  .news-box{
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  li {
+    list-style-type: none;
+  }
+  .news1-title{
+    position: absolute;
+    top:10%;
+    left: 16%;
+    transform: translate(-16%, -10%);
+    font-family: 'Akira';
+    font-size: 25px;
+  }
+  .news2-title{
+    font-family: 'Akira';
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    transform: translate(-53%, -10%);
+  }
+  .news3-title{
+    font-family: 'Akira';
+    font-size: 25px;
+    position: absolute;
+    top: 8.5%;
+    left: 90%;
+    transform: translate(-90%, -8.5%);
+  }
+  .news-box li a{
+    text-decoration: none;
+    color: #001c58;
+  }
+  .news1-txt{
+    font-family: 'Rockford Sans Light';
+    font-size: 16px;
+    width: 300px;
+    position: absolute;
+    left: 8%;
+    bottom: 10%;
+    transform: translate(-8%, -10%);
+  }
+  .news2-txt{
+    font-family: 'Rockford Sans Light';
+    font-size: 16px;
+    width: 300px;
+    position: absolute;
+    left: 53%;
+    bottom: 10%;
+    transform: translate(-53%, -10%);
+  }
+  .news3-txt{
+    font-family: 'Rockford Sans Light';
+    font-size: 16px;
+    width: 300px;
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+    transform: translate(-2%, -10%);
+  }
+  .nav-news {
+    position: absolute;
+    bottom: 40px;
+    right: 19%;
+    transform: translate(-19%);
+    font-family: 'Stretch Pro';
+    font-size: 18.48px;
+    text-transform: uppercase;
+  }
+  .nav-news a{
+      text-decoration: none;
+      color: white;
+      transition: 0.5s;
+  }
+  .nav-news a:hover{
+      font-size: 20px;
+  }
+  
+  .proximos-confrontos{
+    background-color: #f0f0f0;
+    width: 1170px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    margin-top: -8px;
+    padding-bottom: 60px;
+}
+.pc-title{
+  font-family: 'Stretch Pro';
+  font-size: 55px;
+  color: #001c58;
+  text-align: center;
+}
+
+.container-evextot {
+  position: relative;
+  text-align: left;
+}
+
+.info1 {
+  position: absolute;
+  top: 30px;
+  left: 17.5%;
+  transform: translate(-50%);
+  color: #333333;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Rockford Sans Light';
+}
+
+.local1 {
+  position: absolute;
+  bottom: 6%;
+  left: 17.5%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 22px;
+  font-family: 'Rockford Sans Light';
+}
+.local1 a{
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+}
+.local1 a:hover{
+  font-size: 24px;
+}
+
+.logo1 {
+  position: absolute;
+  top: 50%;
+  left: 16.5%;
+  transform: translate(-50%, -50%);
+  color: #333333;
+}
+.league1 {
+  position: absolute;
+  top: 70%;
+  left: 17.5%;
+  transform: translate(-50%, -50%);
+  color: #333333;
+  font-family: 'Rockford Sans Light';
+  font-size: 18px;
+}
+.container-totxsou {
+  position: relative;
+  text-align: right;
+}
+
+.info2 {
+  position: absolute;
+  bottom: 210px;
+  right: 16%;
+  transform: translate(-50%);
+  color: #333333;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Rockford Sans Light';
+}
+
+.local2 {
+  position: absolute;
+  bottom: 50px;
+  right: 43%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 20px;
+  font-family: 'Rockford Sans Light';
+}
+.local2 a{
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.5s;
+  width: 320px;
+}
+.local2 a:hover{
+  font-size: 21.5px;
+}
+
+.logo2 {
+  position: absolute;
+  float: right;
+  bottom: 28px;
+  right: 8.7%;
+  transform: translate(-50%, -50%);
+  color: #333333;
+}
+.league2 {
+  position: absolute;
+  float: right;
+  bottom: 75px;
+  right: 16.5%;
+  transform: translate(-50%, -50%);
+  color: #333333;
+  font-family: 'Rockford Sans Light';
+  font-size: 18px;
+}
+
+.pc-nav {
+  margin-top: 15px;
+  float: right;
+  font-family: 'Stretch Pro';
+  font-size: 18.5px;
+  text-transform: uppercase;
+  color: #001c58;
+}
+.pc-nav a{
+  text-decoration: none;
+  color: #001c58;
+  transition-duration: 0.5s;
+}
+.pc-nav a:hover{
+  font-size: 20px;
+}
+
+footer{
+  margin: -8px;
+  background-color: white;
+  padding: 80px;
+  text-align: center;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.social-media{
+  display: inline-flex;
+  text-align: center;
+}
+.social-media li{
+  margin-right: 60px;
+}
+
+.creditos{
+  text-align: center;
+  background-color: #001c58;
+  color: white;
+  font-family: 'Stretch Pro';
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 23px;
+  margin: -8px;
+}
