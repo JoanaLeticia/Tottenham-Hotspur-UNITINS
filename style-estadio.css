@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'StretchPro';
-    src: url(fonts/StretchPro.otf);
+    src: url(StretchPro.woff);
 }
 @font-face {
     font-family: 'Akira';
-    src: url(fonts/Akira.woff);
+    src: url(Akira.woff);
 }
 @font-face {
     font-family: 'Apex New Book';
-    src: url(fonts/apex-new-font/ApexNew-Book.woff) ;
+    src: url(ApexNew-Book.woff) ;
 }
 @font-face {
     font-family: 'Apex New Medium';
-    src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+    src: url(ApexNew-Medium.woff);
 }
 @font-face {
     font-family: 'Roboto Black';
-    src: url(fonts/Roboto-Black.woff);
+    src: url(Roboto-Black.woff);
 }
 
 /* barra de navegação */
