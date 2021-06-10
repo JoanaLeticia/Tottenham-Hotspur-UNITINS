@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'StretchPro';
-    src: url(fonts/StretchPro.otf);
+    src: url(StretchPro.otf);
 }
 
 @font-face {
   font-family: 'Apex New Medium';
-  src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+  src: url(ApexNew-Medium.woff);
 }
 
 .nav-container {
