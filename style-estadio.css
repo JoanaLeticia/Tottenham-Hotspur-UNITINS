@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'StretchPro';
+    src: url(fonts/StretchPro.otf);
+}
+@font-face {
+    font-family: 'Akira';
+    src: url(fonts/Akira.woff);
+}
+@font-face {
+    font-family: 'Apex New Book';
+    src: url(fonts/apex-new-font/ApexNew-Book.woff) ;
+}
+@font-face {
+    font-family: 'Apex New Medium';
+    src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+}
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(fonts/Roboto-Black.woff);
+}
+
+/* barra de navegação */
+.nav-container {
+    max-width: 2560px;
+    background-image: radial-gradient(circle, #e7e7e7, #ececec);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
+}
+#logo-nav{
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+}
+.nav-container ul{
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    margin-right: 50px;
+}
+.nav-container li{
+    margin: 0 15px;
+    float: left;
+    list-style: none;
+    font-family: 'Rockford Sans Light';
+    font-size: 17px;
+}
+.nav-container li a{
+    text-decoration: none;
+    color: #001c58;
+    transition-duration: 0.7s;
+}
+.nav-container li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body{
+    background-image: radial-gradient(circle, #e8e7e8, #eaeaea);
+    background-attachment: fixed;
+}
+/* corpo principal */
+
+main{
+    background-color: #f0f0f0;
+    width: 1035px;
+    margin: auto;
+    padding: 150px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.container-principal{
+    position: relative;
+    text-decoration: center;
+    color: white;
+    margin: -150px -150px -0px -150px;
+}
+.title-principal{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    font-family: 'Akira';
+    font-size: 60px;
+}
+.nav-principal{
+    position: absolute;
+    bottom: 80px;
+    right: 100px;
+    font-family: 'StretchPro';
+}
+.nav-principal a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+.nav-principal a:hover{
+    font-size: 18px;
+}
+
+h1{
+    font-family: 'Roboto Black';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #001c58;
+}
+
+.sem-foto {
+    font-family: 'Apex New Book';
+    color: #4b4b4b;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #4b4b4b;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+p{
+    font-family: 'Apex New Book';
+    color: #4b4b4b;
+    text-align: justify;
+}
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -20px;
+}
+li{
+    margin-right: 30px;
+}
+ul .pic a{
+    transition-duration: 0.3s;
+}
+ul .pic a:hover{
+    background-color: #001c58;
+    padding-bottom: 5px;
+}
+
+.linha2{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 40px;
+    border-color: #4b4b4b;
+}
+h2{
+    font-family: 'Apex New Medium';
+    font-size: 20px;
+    color: #242424;
+}
+
+.topico4{
+    background-color: #001c58;
+    margin-left: -150px;
+    margin-right: -150px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.title4{
+    font-family: 'StretchPro';
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+    width: 470px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.galeria{
+    margin-top: 140px;
+    font-family: 'StretchPro';
+    font-size: 24pt;
+    color: #858585;
+    text-align: center;
+}
+.link-galeria{
+    text-decoration: none;
+    color: #858585;
+    transition-duration: 0.5s;
+}
+.link-galeria:hover{
+    font-size: 27pt;
+    color: #797979;
+}
+
+footer{
+    margin: -8px;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media{
+    display: inline-flex;
+    text-align: center;
+  }
+  .social-media li{
+    margin-right: 60px;
+  }
+  
+  .creditos{
+    text-align: center;
+    background-color: #001c58;
+    color: white;
+    font-family: 'Stretch Pro';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 23px;
+    margin: -8px;
+  }
+
+.container-grass{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.legenda-grass{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 580px;
+    height: 270px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Apex New Book';
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.legenda-grass:hover{
+    opacity: 1;
+    color: white;
+}
+.container-display{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.legenda-display{
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 443px;
+    height: 310px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Apex New Book';
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+.legenda-display:hover{
+    opacity: 1;
+    color: white;
+}

@@ -1,0 +1,201 @@
+* {box-sizing:border-box}
+
+@font-face {
+    font-family: 'StretchPro';
+    src: url(fonts/StretchPro.otf);
+}
+
+@font-face {
+  font-family: 'Apex New Medium';
+  src: url(fonts/apex-new-font/ApexNew-Medium.woff);
+}
+
+.nav-container {
+    max-width: 2560px;
+    background-image: radial-gradient(circle, #e7e7e7, #ececec);
+    width: auto;
+    margin: -8px;
+    position: relative;
+    height: 150px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+#logo-nav{
+    margin-top: 25px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.nav-container ul{
+    float: right;
+    height: 150px;
+    line-height: 150px;
+    margin: 0;
+    margin-right: 50px;
+}
+
+.nav-container li{
+    margin: 0 15px;
+    float: left;
+    list-style: none;
+    font-family: 'Rockford Sans Light';
+    font-size: 17px;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: #001c58;
+    transition-duration: 0.7s;
+}
+
+.nav-container li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body{
+    background-image: radial-gradient(circle, #e8e7e8, #eaeaea);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: #f0f0f0;
+    width: 1035px;
+    margin: auto;
+    margin-bottom: -34px;
+    margin-top: -34px;
+    padding: 0px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.galeria-container {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: -45px;
+}
+
+.galeria-slide {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* botoes de voltar e prosseguir */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* contagem numerica dos slides de 1 a 18 */
+.contagem {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* legenda de cada imagem */
+.legenda-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Apex New Medium';
+}
+
+.miniatura-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.miniatura {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#estadio{
+  padding: 140px;
+  font-family: 'StretchPro';
+  color: #858585;
+  text-align: center;
+  font-size: 24pt;
+}
+
+.link_estadio{
+    text-decoration: none;
+    color: #858585;
+    transition-duration: 0.5s;
+}
+
+.link_estadio:hover{
+  font-size: 27pt;
+  color: #797979;
+}
+
+footer{
+    margin: -8px;
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media{
+    display: inline-flex;
+    text-align: center;
+  }
+
+  .social-media li{
+    margin-right: 60px;
+    list-style-type: none;
+  }
+  
+  .creditos{
+    text-align: center;
+    background-color: #001c58;
+    color: white;
+    font-family: 'Stretch Pro';
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 23px;
+    margin: -8px;
+  }
